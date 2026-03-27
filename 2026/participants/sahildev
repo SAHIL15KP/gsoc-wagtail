@@ -1,0 +1,32 @@
+AI GENERATED /// For better reading and visuals
+
+
+Sahil (@SAHIL15KP)
+
+## Introduction
+Hi! I'm Sahil, Full-Stack Developer passionate about building robust web architectures.
+I specialize in Python/Django on the backend and React/Next.js on the frontend. 
+I am applying for GSoC 2026 to work on **Multilingual Support Improvements**, specifically focusing on hardening Wagtail's core translation synchronization logic.
+
+## Links
+- **GitHub:** [github.com/SAHIL15KP](https://github.com/SAHIL15KP)
+
+## Tasks
+- [x] Read the Wagtail Contributor Guide
+- [x] Join Wagtail Slack and introduce myself in #gsoc
+- [x] Set up a local development environment for Wagtail core
+- [x] Make first successful Pull Request to Wagtail core ([#14089](https://github.com/wagtail/wagtail/pull/14089))
+- [x] Submit final GSoC Proposal
+- [x] Complete official Wagtail Tutorial
+
+- [x] Complete official Django Tutorial (Parts 1-7)
+  > **Note:** As an experienced Django developer with several full-stack projects, I leveraged my existing knowledge to focus on Wagtail-specific internals.
+I dedicated this time to mastering Wagtail's testing framework and TDD (Test-Driven Development), which resulted in the regression tests authored for PR #14089.
+
+## Research & Contributions
+### Contributions
+- **PR #14089:** Fixed a `DoesNotExist` crash in `simple_translation` during synced page moves by implementing defensive existence guards.
+
+### Resources Found
+- [Wagtail Internationalization Docs](https://docs.wagtail.org/en/stable/advanced_topics/i18n/) - Crucial for understanding `Locale` and `Translation` models.
+- [RFC 72: Background Workers](https://github.com/wagtail/rfcs/pull/72) - Interesting context for potential future automation in translation workflows.
